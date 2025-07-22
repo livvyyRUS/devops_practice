@@ -1,6 +1,6 @@
 name: Python Lint
 on:
-  event:
+  pull_request:
     branches: [ main ]
 jobs:
   lint:
